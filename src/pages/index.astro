@@ -66,7 +66,9 @@ const metadata = {
       >
     </Fragment>
 
-    <EmailForm />
+    <Fragment slot="content">
+      <EmailForm />
+    </Fragment>
     <!-- <div slot="actions" class="flex max-w-sm gap-4">
       <Button variant="link" href={appStoreDownloadLink}>
         <Image src={appStoreImg} alt="App Store Image" width={200} />
