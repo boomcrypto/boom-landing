@@ -7,6 +7,7 @@ import Footer from '~/components/widgets/Footer.astro';
 import { headerData, footerData } from '~/navigation';
 
 import type { MetaData } from '~/types';
+import { Hotjar } from 'astro-hotjar';
 
 export interface Props {
   metadata?: MetaData;
@@ -23,6 +24,7 @@ const { metadata } = Astro.props;
     <Header {...headerData} isSticky showRssFeed showToggleTheme />
   </slot>
   <main>
+    <Hotjar id="5164127" version="6" />
     <slot />
   </main>
   <slot name="footer">
