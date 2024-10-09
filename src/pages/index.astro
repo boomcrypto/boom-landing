@@ -33,8 +33,8 @@ const metadata = {
     <Header
       position="right"
       links={[
-        { text: 'Wallet', href: 'https://app.boom.money' },
-        { text: 'Shops', href: 'https://shops.boom.money' },
+        { text: 'Wallet', href: '/wallet' },
+        { text: 'Shops', href: '/shops' },
         { text: 'Docs', href: 'https://docs.boom.money' },
         { text: 'Github', href: 'https://github.com/boomcrypto/' },
       ]}
@@ -56,13 +56,15 @@ const metadata = {
       <Image src={heroImg} alt="Boom Wallet Hero Image" width={450} />
     </Fragment>
     <Fragment slot="title">
-      <span class="text-accent dark:text-white highlight">Fast and easy Bitcoin payments. Finally. </span>
+      <span class="text-accent dark:text-white highlight">Boom</span>
       <!-- : <br /> professional
       websites <span class="hidden xl:inline">made easy</span> -->
     </Fragment>
 
     <Fragment slot="subtitle">
-      <span class="hidden sm:inline"> Instantly send friends and merchants Bitcoin. Non-custodial. </span>
+      <span class="hidden sm:inline"
+        > Boom Platforms is on a mission to revolutionize how people and businesses interact with Bitcoin.</span
+      >
     </Fragment>
 
     <EmailForm />
@@ -264,7 +266,7 @@ const metadata = {
       {
         title: 'How do I use the in-wallet chat feature to communicate with friends and merchants?',
         description:
-          "Our in-app chat lets you connect directly with friends and merchants without leaving Boom Wallet. To start chatting, open your wallet and select the contact or merchant you wish to communicate with. You can securely exchange messages without exposing any personal information, enhancing your crypto experience by keeping all your interactions in one secure place.",
+          'Our in-app chat lets you connect directly with friends and merchants without leaving Boom Wallet. To start chatting, open your wallet and select the contact or merchant you wish to communicate with. You can securely exchange messages without exposing any personal information, enhancing your crypto experience by keeping all your interactions in one secure place.',
       },
       {
         title: 'How do Boom Smart Shops benefit merchants compared to traditional platforms?',

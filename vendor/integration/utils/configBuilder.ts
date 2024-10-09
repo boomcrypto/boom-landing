@@ -71,9 +71,12 @@ export interface AppBlogConfig {
 }
 export interface AnalyticsConfig {
   vendors: {
-    googleAnalytics: {
-      id?: string;
-      partytown?: boolean;
+    // googleAnalytics: {
+    //   id?: string;
+    //   partytown?: boolean;
+    // };
+    hotjar?: {
+      id: 5164127;
     };
   };
 }

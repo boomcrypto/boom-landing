@@ -1,4 +1,5 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+// import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { getPermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -129,8 +130,8 @@ export const footerData = {
       links: [
         { text: 'Features', href: '#' },
         { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Customer stories', href: '#' },
+        { text: 'Team', href: '/#team' },
+        { text: 'Customer stories', href: '/#testimonials' },
         { text: 'Pricing', href: '#' },
         { text: 'Resources', href: '#' },
       ],
@@ -138,25 +139,25 @@ export const footerData = {
     {
       title: 'Platform',
       links: [
-        { text: 'Smart Shops', href: 'https://shops.boom.money/' },
+        { text: 'Smart Shops', href: '/shops' },
         { text: 'Stacks Pay API', href: 'https://stackspay.org/' },
-        { text: 'Partners', href: '#' },
+        { text: 'Partners', href: '/partners' },
       ],
     },
     {
       title: 'Support',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
+        { text: 'Docs', href: 'https://docs.boom.money' },
+        { text: 'Community Forum', href: 'https://discord.gg/CwguEnbJAF' },
       ],
     },
     {
       title: 'Company',
       links: [
-        { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
+        { text: 'About', href: '/about' },
+        { text: 'Blog', href: '/blog' },
+        // { text: 'Careers', href: '#' },
+        { text: 'Press', href: '/media' },
       ],
     },
   ],

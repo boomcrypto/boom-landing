@@ -1,0 +1,90 @@
+---
+import Layout from '../layouts/PageLayout.astro';
+---
+<Layout>
+
+  <section class="media-page">
+    <h1>Media Resources</h1>
+    <p>
+      Welcome to the Boom Platforms media page! Here you will find our latest press releases, media assets, and news
+      coverage. For any additional inquiries or media requests, please contact us at <a
+        href="mailto:press@boomplatforms.com">press@boomplatforms.com</a
+      >.
+    </p>
+  
+    <h2>Press Releases</h2>
+    <ul>
+      <li>
+        <a href="/press/launch-announcement">Boom Platforms Launches to Revolutionize Bitcoin Payments</a><br />
+        <small>Published on: January 15, 2024</small>
+      </li>
+      <li>
+        <a href="/press/boom-wallet-update">Boom Wallet: Now Supporting Stacks Tokens with Enhanced User Experience</a><br
+        />
+        <small>Published on: February 10, 2024</small>
+      </li>
+    </ul>
+  
+    <h2>Media Assets</h2>
+    <p>
+      Below, you will find downloadable logos, product images, and other media assets that can be used for articles or
+      publications:
+    </p>
+    <div class="media-assets">
+      <div class="media-asset">
+        <img src="/images/boom-logo.png" alt="Boom Platforms Logo" />
+        <a href="/downloads/boom-logo.zip" class="button">Download Logo</a>
+      </div>
+      <div class="media-asset">
+        <img src="/images/boom-wallet-screenshot.png" alt="Boom Wallet Screenshot" />
+        <a href="/downloads/boom-wallet-screenshot.zip" class="button">Download Screenshot</a>
+      </div>
+    </div>
+  
+    <h2>In the News</h2>
+    <ul>
+      <li>
+        <a href="https://example.com/news/boom-platforms-feature"
+          >How Boom Platforms is Making Bitcoin Payments Easy for Everyone</a
+        ><br />
+        <small>Published on: March 5, 2024 by Example News</small>
+      </li>
+      <li>
+        <a href="https://example.com/news/boom-wallet-innovation"
+          >Boom Wallet: The Future of Decentralized Peer-to-Peer Payments</a
+        ><br />
+        <small>Published on: March 20, 2024 by Crypto Insights</small>
+      </li>
+    </ul>
+  
+    <h2>Contact Us</h2>
+    <p>
+      If you're a member of the media and need further assistance, feel free to reach out to our media team at <a
+        href="mailto:press@boomplatforms.com">press@boomplatforms.com</a
+      >.
+    </p>
+  </section>
+
+</Layout>
+
+<style>
+  .media-page {
+    padding: 2rem;
+  }
+  .media-asset {
+    margin-bottom: 2rem;
+  }
+  .media-asset img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+  .media-asset .button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #ff007f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+</style>
