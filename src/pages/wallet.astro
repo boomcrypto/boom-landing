@@ -1,7 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 
-import Header from '~/components/widgets/Header.astro';
+// import Header from '~/components/widgets/Header.astro';
 
 import Hero2 from '~/components/widgets/Hero2.astro';
 // import CallToAction from '~/components/widgets/CallToAction.astro';
@@ -9,7 +9,6 @@ import Hero2 from '~/components/widgets/Hero2.astro';
 import Content from '~/components/widgets/Content.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-import EmailForm from '~/components/common/EmailForm.astro';
 // import Stats from '~/components/widgets/Stats.astro';
 
 // import Button from '~/components/ui/Button.astro';
@@ -23,18 +22,18 @@ import Image from '~/components/common/Image.astro';
 const heroImg = '~/assets/images/hero-image-left.png';
 
 const metadata = {
-  title: 'Mobile App Homepage',
+  title: 'Boom Homepage',
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- <Fragment slot="announcement"></Fragment> -->
-  <Fragment slot="header">
+  <!-- <Fragment slot="header">
     <Header
       position="right"
       links={[
         { text: 'Wallet', href: 'https://app.boom.money' },
-        { text: 'Shops', href: 'https://shops.boom.money' },
+        { text: 'Shops', href: '/shops' },
         { text: 'Docs', href: 'https://docs.boom.money' },
         { text: 'Github', href: 'https://github.com/boomcrypto/' },
       ]}
@@ -47,7 +46,7 @@ const metadata = {
       isSticky
       showToggleTheme
     />
-  </Fragment>
+  </Fragment> -->
 
   <!-- Hero2 Widget ******************* -->
 
@@ -65,7 +64,7 @@ const metadata = {
       <span class="hidden sm:inline"> Instantly send friends and merchants Bitcoin. Non-custodial. </span>
     </Fragment>
 
-    <EmailForm />
+      <script async data-uid="0f05f9b7f7" src="https://boomcrypto.ck.page/0f05f9b7f7/index.js" is:raw></script>
     <!-- <div slot="actions" class="flex max-w-sm gap-4">
       <Button variant="link" href={appStoreDownloadLink}>
         <Image src={appStoreImg} alt="App Store Image" width={200} />
@@ -152,43 +151,6 @@ const metadata = {
     </Fragment>
   </Content>
 
-  <!-- Content Widget **************** -->
-
-  <Content
-    isAfterContent
-    items={[
-      {
-        title: 'Smart Contract-based Stores',
-        description:
-          'Enable users to create and manage their own stores using smart contracts, providing a secure and decentralized platform for transactions.',
-        icon: 'tabler:shopping-bag',
-      },
-      {
-        title: 'Accept Bitcoin, sBTC, Stacks, and more',
-        description:
-          'Accept Bitcoin, Stacks, and other cryptocurrencies with ease. No need to worry about exchange rates or fees.',
-        icon: 'tabler:currency-bitcoin',
-      },
-      {
-        title: 'Global Discoverability',
-        description: 'Your store and products are stored on the blockchain, making them accessible to users worldwide.',
-        icon: 'tabler:world',
-      },
-      {
-        title: 'Community-driven development',
-        description: `We're always adding new features and improvements.  Let us know what you'd like to see next!`,
-        icon: 'tabler:heart',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1453738773917-9c3eff1db985?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Vintage Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Boom Smart Shops</h3>
-    </Fragment>
-  </Content>
 
   <!-- Stats Widget ****************** -->
 
@@ -264,12 +226,7 @@ const metadata = {
       {
         title: 'How do I use the in-wallet chat feature to communicate with friends and merchants?',
         description:
-          "Our in-app chat lets you connect directly with friends and merchants without leaving Boom Wallet. To start chatting, open your wallet and select the contact or merchant you wish to communicate with. You can securely exchange messages without exposing any personal information, enhancing your crypto experience by keeping all your interactions in one secure place.",
-      },
-      {
-        title: 'How do Boom Smart Shops benefit merchants compared to traditional platforms?',
-        description:
-          'Boom Smart Shops empower merchants by leveraging decentralized, smart contract-based technology. Unlike traditional platforms that often charge hefty fees and require complex setups, Boom Smart Shops allow you to accept Bitcoin and multiple Stacks tokens with ease. Transactions are processed through smart contracts, ensuring security and transparency without intermediaries. Plus, with Stacks Pay integration, you can receive payments via simple links or QR codes.',
+          'Our in-app chat lets you connect directly with friends and merchants without leaving Boom Wallet. To start chatting, open your wallet and select the contact or merchant you wish to communicate with. You can securely exchange messages without exposing any personal information, enhancing your crypto experience by keeping all your interactions in one secure place.',
       },
     ]}
   />

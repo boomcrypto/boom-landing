@@ -4,14 +4,14 @@ site:
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: 
 
 # Default SEO metadata
 metadata:
   title:
-    default: Boom
+    default: Boom Wallet - Fast and easy payments for Bitcoin and more
     template: '%s — Boom'
-  description: "Better Bitcoin payments."
+  description: "A better Bitcoin wallet, with support for easy peer to peer payments, purchasing, tips, donations, and more. Chat with friends and merchants."
   robots:
     index: true
     follow: true
@@ -27,8 +27,8 @@ metadata:
     site: '@boom_wallet'
     cardType: summary_large_image
     image: '~/assets/images/opengraph-image.png'
-    description: "Better Bitcoin payments."
-    title: 'Boom'
+    description: "A better Bitcoin wallet, with support for easy peer to peer payments, purchasing, tips, donations, and more. Chat with friends and merchants."
+    title: 'Boom Wallet'
     url: 'https://boom.money'
 
 
