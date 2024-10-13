@@ -1,0 +1,11 @@
+{
+  "id": "boom-team",
+  "name": "Boom Team",
+  "avatar": "/images/authors/boom-24.svg",
+  "bio": "Growing the #Bitcoin economy by enabling fast and easy payments, merchant systems and communities.",
+  "social": {
+    "twitter": "boom_wallet",
+    "github": "boomcrypto",
+    "website": "https://boom.money"
+  }
+}
