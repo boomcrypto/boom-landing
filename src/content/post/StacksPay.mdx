@@ -2,7 +2,7 @@
 publishDate: 2024-12-11T01:10:00Z
 title: StacksPay- Reimagining Blockchain Payments Through Seamless Integration
 author: boom-team
-excerpt: The cryptocurrency space has long struggled with a fundamental challenge, making digital asset transactions as effortless as traditional payment methods. StacksPay, a groundbreaking payment request standard built for the Stacks blockchain, aims to solve this through an innovative approach to transaction handling and user experience.
+excerpt: The cryptocurrency space has long struggled with a fundamental challenge: making digital asset transactions as effortless as traditional payment methods. StacksPay, a groundbreaking payment request standard built for the Stacks blockchain by the team at Boom, aims to solve this through an innovative approach to transaction handling and user experience.
 image: https://images.unsplash.com/photo-1639322537231-2f206e06af84?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 category: Documentation
 tags:
@@ -16,23 +16,22 @@ metadata:
 ---
 
 **StacksPay: Reimagining Blockchain Payments Through Seamless Integration**
-
+Note: StacksPay is currently in the SIP proposal stage, if and when confirmed, this blog will be updated to reflect this change.
  
-The cryptocurrency space has long struggled with a fundamental challenge: making digital asset transactions as effortless as traditional payment methods. StacksPay, a groundbreaking payment request standard built for the Stacks blockchain, aims to solve this through an innovative approach to transaction handling and user experience.
-
+The cryptocurrency space has long struggled with a fundamental challenge: making digital asset transactions as effortless as traditional payment methods. StacksPay, a groundbreaking payment request standard built for the Stacks blockchain by the team at Boom, aims to solve this through an innovative approach to transaction handling and user experience.
  
 **A New Standard for Digital Payments**
 
-At its core, StacksPay (SIP-202) functions as a layer built atop existing Stacks blockchain operations. Rather than modifying the underlying blockchain infrastructure, it introduces a standardized method for bundling and sharing payment information off-chain. This approach enables seamless integration of payment functionality across platforms, from social media to email and messaging apps.
+At its core, StacksPay proposal (SIP # Pending, current stage-PR #202 in the StacksGov SIP repo) functions as a layer built atop existing Stacks blockchain operations. Rather than modifying the underlying blockchain infrastructure, it introduces a standardized method for bundling and sharing payment information off-chain. This approach enables seamless integration of payment functionality across platforms, from social media to email and messaging apps.
 
-The standard's architecture supports four distinct operation types, each serving specific payment scenarios. The invoice operation handles specific payment requests, while the support operation enables reusable payment links ideal for donations and tips. For NFT enthusiasts, a dedicated mint operation streamlines the token acquisition process. Additionally, a flexible custom operation allows developers to implement unique payment solutions tailored to their applications.
+The standard's architecture currently supports four distinct operation types, each serving specific payment scenarios. The invoice operation handles specific payment requests, while the support operation enables reusable payment links ideal for donations, tips and gifts. For NFT enthusiasts, a dedicated mint operation streamlines the token acquisition process. Additionally, a flexible custom operation allows developers to implement unique payment solutions tailored to their applications.
 
  
 **Breaking Down the Technical Barriers**
 
-StacksPay's technical implementation leverages the web-stx protocol prefix and base32m encoding, providing robust checksums and enhanced text handling capabilities. The standard includes comprehensive reference implementations, with an npm package available for TypeScript developers and additional Python and REST libraries in development.
+StacksPay's technical implementation leverages the web+stx* protocol prefix and base32m encoding, providing robust checksums and enhanced text handling capabilities. The standard includes comprehensive reference implementations, with an npm package available for TypeScript developers and additional Python and REST libraries in development.
 
-What sets StacksPay apart is its focus on minimizing user friction. When recipients receive a payment link, they can process it directly through their compatible wallet without navigating complex interfaces or multiple authentication steps. This streamlined approach represents a significant advancement in cryptocurrency payment processing.
+What sets StacksPay apart is its focus on minimizing user friction. When recipients receive a payment link, they can process it directly through their compatible wallet without navigating complex interfaces or multiple authentication steps. This streamlined approach represents a significant advancement in cryptocurrency payment processing. This will allow both businesses and retail users to invoice their customers/partners globally and start accepting crypto payments immediately with no coding or integration required.
 
  
 **Expanding the Payment Ecosystem**
@@ -58,4 +57,7 @@ As development continues, the StacksPay ecosystem is expected to expand, offerin
 Through its innovative approach to transaction handling and user experience, StacksPay isn't just simplifying cryptocurrency payments – it's reimagining how digital value transfer can work in an increasingly connected world.
 
 To experience StacksPay's capabilities firsthand, join the Boom Wallet waitlist at [https://boom.money](https://boom.money). As one of the first wallets to implement the StacksPay standard, Boom will offer early access to these payment innovations.
+
+web+stx*- is a web context, the "web+" prefix is used to indicate a custom protocol scheme that a web application can handle.
+
 
