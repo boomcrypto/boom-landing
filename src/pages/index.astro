@@ -23,7 +23,7 @@ import Image from '~/components/common/Image.astro';
 const heroImg = '~/assets/images/hero-leftv2.png';
 
 const metadata = {
-  title: 'Boom Wallet - For bitcoiners by bitcoiners',
+  title: 'Boom - PayFi on Bitcoin',
 };
 ---
 
@@ -32,8 +32,7 @@ const metadata = {
   <Fragment slot="header">
     <Header
       links={[
-        { text: 'Wallet', href: '/wallet' },
-        { text: 'Shops', href: '/shops' },
+        { text: 'Features', href: '#features' },
         { text: 'Blog', href: '/blog' },
         { text: 'Docs', href: 'https://docs.boom.money' },
       ]}
@@ -50,19 +49,19 @@ const metadata = {
 
   <!-- Hero2 Widget ******************* -->
 
-  <Hero2 tagline="For bitcoiners by bitcoiners">
+  <Hero2 tagline="Unlock the power of Bitcoin" id="home">
     <Fragment slot="image">
       <Image src={heroImg} alt="Boom Wallet Hero Image" width={480} />
     </Fragment>
     <Fragment slot="title">
-      <span class="text-accent dark:text-white highlight">Boom</span>
+      <span class="text-accent dark:text-white highlight">Live the Bitcoin Economy </span>
       <!-- : <br /> professional
       websites <span class="hidden xl:inline">made easy</span> -->
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline"
-        >Boom Platforms is on a mission to revolutionize how people and businesses interact with Bitcoin.</span
+        >Boom is on a mission to revolutionize how people and businesses interact with Bitcoin.</span
       >
     </Fragment>
 
@@ -118,7 +117,7 @@ const metadata = {
   /> -->
 
   <!-- Content Widget **************** -->
-
+  <div id="features"></div>
   <Content
     isReversed
     items={[

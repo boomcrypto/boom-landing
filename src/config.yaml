@@ -4,15 +4,15 @@ site:
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: 
-
+  googleSiteVerificationId:
 
 # Default SEO metadata
 metadata:
   title:
-    default: Boom Wallet - Fast and easy payments for Bitcoin and more
+    default: Boom - PayFi on Bitcoin
     template: '%s — Boom'
-  description: "A better Bitcoin wallet, with support for easy peer to peer payments, purchasing, tips, donations, and more. Chat with friends and merchants."
+  description: 'A better Bitcoin wallet, with support for easy peer to peer payments, purchasing, tips, donations, and more. Chat with friends and merchants.'
+  keywords: 'Bitcoin, PayFi, Peer to Peer, Payments, Purchasing, Tips, Donations, Chat, Friends, Merchants'
   robots:
     index: true
     follow: true
@@ -28,10 +28,9 @@ metadata:
     site: '@boom_wallet'
     cardType: summary_large_image
     image: '~/assets/images/opengraph-image.png'
-    description: "A better Bitcoin wallet, with support for easy peer to peer payments, purchasing, tips, donations, and more. Chat with friends and merchants."
+    description: 'A better Bitcoin wallet, with support for easy peer to peer payments, purchasing, tips, donations, and more. Chat with friends and merchants.'
     title: 'Boom Wallet'
     url: 'https://boom.money'
-
 
 i18n:
   language: en
