@@ -123,6 +123,14 @@ export const headerData = {
   // actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
 
+// Footer
+// (Retain most of your current structure, with a small nod to the future-focused message.)
+// Boom · Terms · Privacy Policy
+// Product: Features · Security · Team · Customer Stories · Pricing
+// Resources: Platform · Smart Shops · Stacks Pay API · Partners · Support · Docs · Community Forum
+// Company: About · Blog · Press
+// Made by Boom Platforms · All rights reserved
+
 export const footerData = {
   links: [
     {
@@ -133,22 +141,17 @@ export const footerData = {
         { text: 'Team', href: '/#team' },
         { text: 'Customer stories', href: '/#testimonials' },
         { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
       ],
     },
     {
-      title: 'Platform',
+      title: 'Resources',
       links: [
         { text: 'Smart Shops', href: '/shops' },
         { text: 'Stacks Pay API', href: 'https://stackspay.org/' },
         { text: 'Partners', href: '/partners' },
-      ],
-    },
-    {
-      title: 'Support',
-      links: [
+        { text: 'Support', href: 'https://discord.gg/aSWHajPqyR' },
         { text: 'Docs', href: 'https://docs.boom.money' },
-        { text: 'Community Forum', href: 'https://discord.gg/CwguEnbJAF' },
+        { text: 'Community Forum', href: 'https://discord.gg/aSWHajPqyR' },
       ],
     },
     {
