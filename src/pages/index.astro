@@ -29,7 +29,7 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <!-- <Fragment slot="announcement"></Fragment> -->
-  <Fragment slot="header">
+  <Fragment slot='header'>
     <Header
       links={[
         { text: 'Features', href: '#features' },
@@ -49,23 +49,30 @@ const metadata = {
 
   <!-- Hero2 Widget ******************* -->
 
-  <Hero2 tagline="Unlock the power of Bitcoin" id="home">
-    <Fragment slot="image">
-      <Image src={heroImg} alt="Boom Wallet Hero Image" width={480} />
+  <Hero2
+    tagline='experience global financial freedom'
+    id='home'
+  >
+    <Fragment slot='image'>
+      <Image
+        src={heroImg}
+        alt='Boom Wallet Hero Image'
+        width={480}
+      />
     </Fragment>
-    <Fragment slot="title">
-      <span class="text-accent dark:text-white highlight">Live the Bitcoin Economy </span>
+    <Fragment slot='title'>
+      <span class='text-accent dark:text-white highlight'>Live the Bitcoin Economy </span>
       <!-- : <br /> professional
       websites <span class="hidden xl:inline">made easy</span> -->
     </Fragment>
 
-    <Fragment slot="subtitle">
-      <span class="hidden sm:inline"
-        >Boom is on a mission to revolutionize how people and businesses interact with Bitcoin.</span
+    <Fragment slot='subtitle'>
+      <span class='hidden sm:inline'
+        >Boom makes Bitcoin easy, practical, and borderless, empowering you to send, shop, and grow—your way.</span
       >
     </Fragment>
 
-    <Fragment slot="content">
+    <Fragment slot='content'>
       <EmailForm />
     </Fragment>
     <!-- <div slot="actions" class="flex max-w-sm gap-4">
@@ -117,31 +124,24 @@ const metadata = {
   /> -->
 
   <!-- Content Widget **************** -->
-  <div id="features"></div>
+  <div id='features'></div>
   <Content
     isReversed
     items={[
       {
-        title: 'User-friendly interface',
+        title: 'Build, Sell & Grow—All from Your Wallet',
         description:
-          "Navigate the decentralized world with Boom's sleek, simplified UI—no clutter, no confusion, just you and your crypto. Plus, we're mobile-first, so your wallet goes wherever you do.",
+          '<li> Create your own shop in minutes and start selling globally.</li>' +
+          '<li> Manage everything in one place—list products, accept payments, and connect with customers effortlessly.</li>' +
+          '<li> Integrated chat lets you talk directly with buyers, handle orders, and build relationships—all within Boom.</li>',
         icon: 'tabler:wand',
       },
       {
-        title: 'In-wallet chat',
+        title: 'Shop, Pay & Connect—Anywhere',
         description:
-          'Why switch apps when you can chat right here? Connect with friends and merchants directly in your wallet—no secrets spilled.',
+          '<li>Pay your friends, local vendors, or online merchants effortlessly.' +
+          '<li>Split bills in a tap, settle payments, and keep track—all with built-in chat for easy coordination.',
         icon: 'tabler:message',
-      },
-      {
-        title: 'Stacks Pay support',
-        description: "With Boom's Stacks Pay support, payments are now as simple as scan, tap, done.",
-      },
-      {
-        title: 'Security and privacy',
-        description:
-          "Your keys, your crypto. We don't hold your funds or your data, so enjoy full control knowing your financial autonomy is locked down.",
-        icon: 'tabler:shield-lock',
       },
     ]}
     image={{
@@ -149,8 +149,8 @@ const metadata = {
       alt: 'Colorful Image',
     }}
   >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Boom Wallet</h3>
+    <Fragment slot='content'>
+      <h3 class='text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2'>What You Can Do with Boom</h3>
     </Fragment>
   </Content>
 
@@ -160,26 +160,18 @@ const metadata = {
     isAfterContent
     items={[
       {
-        title: 'Smart Contract-based Stores',
+        title: 'Stay Informed & in Control',
         description:
-          'Enable users to create and manage their own stores using smart contracts, providing a secure and decentralized platform for transactions.',
+          '<li>Get real-time market updates, stay on top of Bitcoin price movements, and never miss key insights.</li>' +
+          '<li>Access news, discussions, and events—all within the app.</li>',
         icon: 'tabler:shopping-bag',
       },
       {
-        title: 'Accept Bitcoin, sBTC, Stacks, and more',
+        title: 'Secure, Fast & Simple',
         description:
-          'Accept Bitcoin, Stacks, and other cryptocurrencies with ease. No need to worry about exchange rates or fees.',
+          '<li>Security, while keeping full ownership of your funds.</li>' +
+          '<li>Experience the simplicity of modern digital payments—no middlemen, no limits.</li>',
         icon: 'tabler:currency-bitcoin',
-      },
-      {
-        title: 'Global Discoverability',
-        description: 'Your store and products are stored on the blockchain, making them accessible to users worldwide.',
-        icon: 'tabler:world',
-      },
-      {
-        title: 'Community-driven development',
-        description: `We're always adding new features and improvements.  Let us know what you'd like to see next!`,
-        icon: 'tabler:heart',
       },
     ]}
     image={{
@@ -187,8 +179,8 @@ const metadata = {
       alt: 'Vintage Image',
     }}
   >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Boom Smart Shops</h3>
+    <Fragment slot='content'>
+      <!-- <h3 class='text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2'>Boom Smart Shops</h3> -->
     </Fragment>
   </Content>
 
@@ -206,7 +198,7 @@ const metadata = {
   <!-- Testimonials Widget *********** -->
 
   <Testimonials
-    title="What our users say?"
+    title='What our users say?'
     testimonials={[
       {
         testimonial: `I've been Stacking from the beginning, and Boom is the simplest crypto wallet that I've used.`,
@@ -247,7 +239,7 @@ const metadata = {
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Frequently asked questions"
+    title='Frequently asked questions'
     items={[
       {
         title: 'How do I install Boom Wallet on my device?',
