@@ -117,7 +117,7 @@ export const headerData = {
     // },
     { text: 'Wallet', href: '/wallet' },
     { text: 'Shops', href: '/shops' },
-    { text: 'Blog', href: '/blog' },
+    { text: 'Blog', href: 'https://blog.boom.money/' },
     { text: 'Docs', href: 'https://docs.boom.money' },
   ],
   // actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
@@ -155,7 +155,7 @@ export const footerData = {
       title: 'Company',
       links: [
         { text: 'About', href: '/about' },
-        { text: 'Blog', href: '/blog' },
+        { text: 'Blog', href: 'https://blog.boom.money/' },
         // { text: 'Careers', href: '#' },
         { text: 'Press', href: '/media' },
       ],
